@@ -45,7 +45,7 @@ export default class Home extends Component {
             
           </View>
           <View style={styles.textContainer}>
-           Observação: Utilize a navegação para ler as histórias
+           {/* Observação: Utilize a navegação para ler as histórias */}
           </View>
           
           <View style={{ flex: 0.08 }} />

@@ -6,7 +6,7 @@ import Home from "../screens/Home";
 
 const Tab = createBottomTabNavigator();
 
-export default const BottomTabNavigator = () => {
+export default function BottomTabNavigator() {
     return (
         <Tab.Navigator
             screenOptions={({ route }) => ({

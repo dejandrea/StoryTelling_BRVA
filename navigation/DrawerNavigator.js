@@ -4,7 +4,7 @@ import TabNavigator from "./TabNavigator";
 import Home from "../screens/Home";
 const Drawer = createDrawerNavigator();
 
-export default const DrawerNavigator = () => {
+export default function DrawerNavigator () {
     return (
         <Drawer.Navigator>
             <Drawer.Screen name="Tela Inicial" component={Home} />
